@@ -8,6 +8,8 @@ inputs:
 outputs:
   time:
     description: 'The time we said hello.'
+  date:
+    description: 'The date we said hello.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
